@@ -12,13 +12,13 @@ I built this project to demonstrate how to take a machine learning model out of 
 ## Architecture Overview
 
 
-[ External APIs / RSS Feeds ]
+ External APIs / RSS Feeds 
              │
              ▼
-[ Data Ingestion Layer (scraper.py) ]
+ Data Ingestion Layer (scraper.py) 
              │
              ▼
-[ FastAPI Backend Service (api.py) ] ──(Inference)──► [ RoBERTa Transformer (model.py) ]
+ FastAPI Backend Service (api.py)  ──(Inference)──► [ RoBERTa Transformer (model.py) ]
              │
              ▼ (JSON REST Payload)
 [ Streamlit Web Dashboard (app.py) ] ──(Render)──► User Visualizations
