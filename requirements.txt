@@ -1,0 +1,10 @@
+fastapi>=0.100.0
+uvicorn>=0.28.0
+streamlit>=1.30.0
+requests>=2.31.0
+torch
+transformers
+feedparser
+pandas
+plotly
+python-dotenv
