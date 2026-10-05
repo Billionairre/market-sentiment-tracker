@@ -6,7 +6,7 @@ I built this project to demonstrate how to take a machine learning model out of 
 
 ## Architecture Overview
 
-```mermaid
+```text
  External APIs / RSS Feeds
              │
              ▼
